@@ -1,0 +1,30 @@
+{
+    "name": "mdafzaran/id-pay",
+    "description": "This Package usefull for laravel dev needs IdPay Payment Api.(Md Afzaran Mohammad Salehe Alizadegan)",
+    "type": "metapackage",
+    "license": "MIT",
+    "keywords": ["IdPay","Laravel","IdPayPackage","IranianPayment"],
+    "authors": [
+        {
+            "name": "mohammad salehe alizadegan",
+            "email": "mohammad-salehealizadegan@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MdAfzaran\\IdPay\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers":[
+                "MdAfzaran\\IdPay\\IdPayServiceProvider"
+            ]
+        }
+    },
+    "prefer-stable": true
+}
