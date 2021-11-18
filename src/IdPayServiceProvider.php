@@ -4,7 +4,7 @@ namespace Mdafzaran\Idpay;
 
 use Illuminate\Support\ServiceProvider;
 
-class IdPayServiceProvider extends ServiceProvider
+class IdpayServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
