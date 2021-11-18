@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "MdAfzaran\\IdPay\\": "src/"
+            "Mdafzaran\\Idpay\\": "src/"
         }
     },
     "require": {
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers":[
-                "MdAfzaran\\IdPay\\IdPayServiceProvider"
+                "Mdafzaran\\Idpay\\IdpayServiceProvider"
             ]
         }
     },
